@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automationexerise.login_register_beforecheckout">
+      <class name="automationexerise.login">
         <methods>
           <include name="close_Browser"/>
+          <include name="logged_in"/>
           <include name="open_Browser"/>
-          <include name="L_R_beforecheckout"/>
         </methods>
-      </class> <!-- automationexerise.login_register_beforecheckout -->
+      </class> <!-- automationexerise.login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
